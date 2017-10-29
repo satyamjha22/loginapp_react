@@ -1,7 +1,6 @@
 import React from 'react';
 
 const LoginPage = (props) => {
-  console.log(props, 'listprops');
   return (
     <div className="container">
 
@@ -12,7 +11,7 @@ const LoginPage = (props) => {
     <input
       type= "email"
       value={props.login.username}
-      placeholder="Enter Username"
+      placeholder="AlexParrish@xyz.com"
       onChange={(e) => props.username(e.target.value)}
       required
       />

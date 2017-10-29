@@ -35,7 +35,7 @@ const Home = () => (
 const About = ({ match }) => (
   <div>
     <h2>About us</h2>
-    <Tabs>
+    <Tabs id="noanim-tab-example">
       <Tab className="infotab tb">
         <Link to={`${match.url}/profile`}>
           Profile

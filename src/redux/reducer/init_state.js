@@ -1,7 +1,7 @@
 export default {
 	login:{
-		username: ['123','skkmogili@gmail.com'],
-		password: ['1', 'buntymogili'],
+		username: ['satyam22oct@gmail.com','abc@gmail.com'],
+		password: ['satyam', 'abcd'],
 		username1: '',
 		password1: '',
 		dataValidation: false,

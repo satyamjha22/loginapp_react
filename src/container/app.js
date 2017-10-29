@@ -22,7 +22,6 @@ const App = (props) =>{
 
 
 function mapStateToProps(state, ownProps) {
-	console.log('prestate',state);
   return {
     username1: state.login.username1,
     password1: state.login.password1,

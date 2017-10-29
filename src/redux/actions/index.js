@@ -4,7 +4,6 @@ export const LOGIN = 'login';
 
 
 export function username(value) {
-  console.log(value, 'value');
   return {
     type: USER_NAME,
     payload: {
@@ -13,7 +12,6 @@ export function username(value) {
   };
 }
 export function password(value) {
-  console.log(value, 'value');
   return {
     type: PASSWORD,
     payload: {
