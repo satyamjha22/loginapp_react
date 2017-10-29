@@ -6,6 +6,8 @@ import {
   Link
 } from 'react-router-dom'
 
+// aboutus  component
+
 const BasicPage = () => (
   <Router>
     <div className="row">
@@ -28,7 +30,7 @@ const Home = () => (
   </div>
 )
 
-
+// profile, team, contact component
 
 const About = ({ match }) => (
   <div>

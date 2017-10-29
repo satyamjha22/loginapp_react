@@ -6,6 +6,7 @@ import BasicPage from '../components/about';
 import { username, password, login } from '../redux/actions/index';
 import '../style/login_page.css';
 
+// container for login and about us components
 const App = (props) =>{
   return(
     <div>

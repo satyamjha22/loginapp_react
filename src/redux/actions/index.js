@@ -21,19 +21,15 @@ export function password(value) {
     }
   };
 }
+// login click action
 
 export function login(value1, value2) {
-  
-    console.log(value1, value2, 'values');
    return (dispatch, getState) => {
      const state  = getState();
      const loginData = state.login;
-     console.log(loginData, 'loginData');
      let validation = loginData.dataValidation;
      let errorPopup = loginData.errorPopup;
-     console.log(loginData.username[0],'jhdhfh', value1);
       if(value1 === loginData.username[0] && value2 === loginData.password[0]){
-          // alert('login')
           validation = true;
           
       }else{
